@@ -1,18 +1,16 @@
 {
-  "name": "n8n",
-  "version": "1.36.2",
-  "description": "Deploy N8N on scalingo",
-  "main": "index.js",
-  "repository": "git@github.com:Scalingo/n8n-scalingo.git",
-  "author": "Jonathan Hurter <john@scalingo.com>",
-  "scripts": {
-    "start": "./scripts/start.sh"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "n8n": "1.36.2"
-  },
-  "engines": {
-    "node": ">=18.0.0"
-  }
+    "name": "n8n-clever-cloud",
+    "version": "1.0.0",
+    "description": "n8n on clevercloud",
+    "dependencies": {
+        "n8n": "1.36.2"
+    },
+    "scripts": {
+        "start": "./run.sh"
+    },
+    "author": "Loic Tosser <wowi42>",
+    "license": "ISC",
+    "engines": {
+        "node": "^18"
+    }
 }
