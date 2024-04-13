@@ -1,6 +1,4 @@
 #!/bin/bash
-set -e
-set -x
 
 REGEX='^([^:]+)://([^:]+):([^@]+)@([^:]+):([^/]+)/([^?]+)(.*)$'
 
@@ -20,6 +18,5 @@ else
   exit 1
 fi
 
-env
-./node_modules/.bin/n8n start
+npx n8n
 exit 1
